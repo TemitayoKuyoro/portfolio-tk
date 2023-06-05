@@ -37,6 +37,7 @@ GENERAL STYLES
   /* COLORS */
   --clr-400: hsla(96, 29%, 90%, 0.75);
   --clr-bg: hsla(261, 35%, 19%, 0.5);
+  --clr-bg_accent: hsla(263, 18%, 9%, 0.685);
 }
 
 body {
@@ -164,7 +165,8 @@ ABOUT SECTION
 ======================
 */
 .about-text {
-  text-indent: 10%;
+  /* text-indent: 10%; */
+  width: 60ch;
   line-height: 1.2;
   letter-spacing: 1px;
 }
@@ -205,6 +207,7 @@ PROJECTS
   box-shadow: -2px 2px 5px -5px var(--clr-400);
   border-radius: 1rem;
   padding: 0.5em 1em;
+  background-color: var(--clr-bg_accent);
   animation: cardmotion 5s ease-in-out 1s 1 forwards;
 }
 
@@ -244,7 +247,7 @@ footer i {
 }
 
 footer i + i {
-  margin-left: 3rem;
+  margin-left: 2em;
 }
 
 /*
