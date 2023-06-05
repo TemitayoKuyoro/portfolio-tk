@@ -18,54 +18,82 @@
     ></script>
   </head>
   <body>
-    <!--HEADER-->
-    <header class="container grid">
-      <!--FIGURE-->
-      <figure>
-        <img
-          src="assets/photo-1677181517395-043e274ba2c4.jpg"
-          alt="temitayo kuyoro image"
-          title="temitayo kuyoro image"
-          width="200"
-          height="200"
-        />
-      </figure>
+    <div class="main-container">
+      <!--HEADER-->
+      <header class="profile container grid">
+        <!--FIGURE-->
+        <figure>
+          <img
+            src="assets/TK-ProPic.jpeg"
+            alt="temitayo kuyoro image"
+            title="temitayo kuyoro image"
+            width="200"
+            height="200"
+          />
+        </figure>
 
-      <!--ASIDE-->
-      <aside>
-        <div>
-          <h2 class="nowrap">Temitayo Kuyoro</h2>
-          <h2 class="nowrap">Frontend Developer</h2>
+        <!--ASIDE-->
+        <aside class="profile-text">
+          <div>
+            <h2 class="job nowrap">Full-stack Developer</h2>
+            <h2 class="name nowrap">Temitayo Kuyoro</h2>
+          </div>
+        </aside>
+      </header>
+
+      <!--ABOUT SECTION-->
+      <section class="container">
+        <h2 class="about-heading">About</h2>
+        <p class="about-text">
+          I am passionate about developing accessible and well-presented web
+          solutions.
+        </p>
+      </section>
+
+      <!--SKILLS SECTION-->
+      <section class="container">
+        <h2>Skills</h2>
+        <ul class="skill-list indent-lf" role="list">
+          <li>
+            <p class="visually-hidden">Html</p>
+            <i class="fa-brands fa-html5"></i>
+          </li>
+          <li>
+            <p class="visually-hidden">Css</p>
+            <i class="fa-brands fa-css3-alt"></i>
+          </li>
+          <li>
+            <p class="visually-hidden">Javascript</p>
+            <i class="fa-brands fa-square-js"></i>
+          </li>
+          <li>
+            <p class="visually-hidden">React</p>
+            <i class="fa-brands fa-react"></i>
+          </li>
+        </ul>
+      </section>
+
+      <!--PROJECTS SECTION-->
+      <section class="container">
+        <h2>Projects</h2>
+        <div class="project-card indent-lf">
+          <h3>2023</h3>
+          <p class="project-role">Full-stack Developer</p>
+          <p class="project-description">
+            Developed front-end and back-end for Constructive blog. A news blog
+            offering the latest news and tips on building construction.
+          </p>
         </div>
-        <div>
-          <span class="nowrap">React JS</span>
-          <span class="nowrap">Next JS</span>
-        </div>
-      </aside>
-    </header>
+      </section>
 
-    <!--PROJECTS SECTION-->
-    <section class="container">
-      <h2>Projects</h2>
-      <table>
-        <tr>
-          <td>Blog page</td>
-          <td>Next JS</td>
-        </tr>
-        <tr>
-          <td>E-commerce store</td>
-          <td>Html &#38; Css</td>
-        </tr>
-      </table>
-    </section>
-
-    <!--SOCIALS FOOTER-->
-    <footer class="container">
-      <h2>Socials</h2>
-      <figure class="grid">
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-brands fa-linkedin"></i>
-      </figure>
-    </footer>
+      <!--SOCIALS FOOTER-->
+      <footer class="container">
+        <h2>Socials</h2>
+        <figure class="social-icons indent-lf">
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </figure>
+      </footer>
+    </div>
   </body>
 </html>
